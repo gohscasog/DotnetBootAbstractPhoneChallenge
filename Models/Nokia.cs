@@ -2,7 +2,8 @@ namespace Project.Models
 {
     class Nokia : Phone
     {
-        public Nokia(string number) : base(number){}
+        public Nokia(string model, string imei, int memory, string number) 
+            : base(model, imei, memory, number){}
         
         public override void InstallApp(string app)
         {

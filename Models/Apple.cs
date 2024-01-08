@@ -2,7 +2,8 @@ namespace Project.Models
 {
     class Apple : Phone
     {
-        public Apple(string number) : base(number){}
+        public Apple(string model, string imei, int memory, string number) 
+            : base(model, imei, memory, number){}
 
         public override void InstallApp(string app)
         {
