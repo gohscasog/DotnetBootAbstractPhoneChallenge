@@ -7,24 +7,24 @@ class Program()
     {
         Apple iphone = new
         (
-            model: "Iphone 15 Pro",
+            model: "iPhone 15 Pro",
             imei: "69-345678-876543-9",
-            memory: 64,
+            storage: 64,
             number: "+55 (11) 9 6969-6969"
         );
         Samsung galaxy = new
         (
-            model: "",
+            model: "Samsung Galaxy Note 20",
             imei: "12-420000-000420-7",
-            memory: 128,
+            storage: 128,
             number: "+55 (21) 9 1234-0420"
         );
         Nokia tijolo = new
         (
-            model: "",
+            model: "Nokia 3310",
             imei: "24-000666-002413-8",
-            memory: 1,
-            number: "+55 (31) 9 6666-2413"
+            storage: 1,
+            number: "+55 (31) 9 6660-2413"
         );
 
         List<Phone> phones = [iphone, galaxy, tijolo];
